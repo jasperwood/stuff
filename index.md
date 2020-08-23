@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 984 644 --><!--version 9.7.4.12181 --><!--type html --><!--mainFolder ./ -->
+<html style=background-color:#ced1d3;>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/><meta name="format-detection" content="telephone=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="msapplication-tap-highlight" content="no"/><title>Basic Covid-19 Safety</title><link rel="apple-touch-icon-precomposed" href="data/apple-touch-icon.png"/><link rel="shortcut icon" type="image/ico" href="data/favicon.ico"/><style>body {background-color:#ced1d3;}#spr0_435619 {display:none;}</style>
+    
+    
+    <style>
+		#playerView {
+			position:absolute;
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+			-webkit-user-select:none;
+			-moz-user-select:none;
+			-webkit-touch-callout:none;
+			-webkit-user-drag:none;
+		}
+		#playerView * {
+			position:absolute;
+		}
+		#preloader {
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+			border-radius: 10px;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
 
-You can use the [editor on GitHub](https://github.com/jasperwood/stuff/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+		#preloader::after {
+			content: '';
+			position: absolute;
+			background: url(data:image/png;base64,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UmVhZHlxyWU8AAADcmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwNjcgNzkuMTU3NzQ3LCAyMDE1LzAzLzMwLTIzOjQwOjQyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOmFjOGVjNDFhLTZkYWItODQ0Ni04YzkzLWU1Mjk3N2YwMmE4NSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFRThCNzU3NDYzNjcxMUU1QTZDRUE5NTVGOUJGQ0E3MCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFRThCNzU3MzYzNjcxMUU1QTZDRUE5NTVGOUJGQ0E3MCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0OWFlZmI1OC00ZWFmLWQ3NDgtYTI0ZS0zNmNhNGQ2M2QwNTYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6N0MwQkFBM0M2MjAxMTFFNUI4QjBERTk4MjY5MjQwQjUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6MGSVVAAAE3klEQVR42uycW4hWVRiG15Q4eYzGQySSQlriEQ9BF2mE4iSdESRRIb0RD+mNmHgICjqQEGUe6sqgCy1i0iRinAzELrooQhHLGQURUTzMiM7omCLj+/F/czX/t/890z6s9e/3hZcZ1l6z19r7mXXca62arq4uR/mjh/gKCIQiEAKhCIRAKAIhEIpACIQiEIpACIQiEAKhCIRAKAIhEMoX9Yu62NbWxjcUobq6OpaQQpcQz/QwPBOeDU+Fx8Oj4UfhoRrnJnwDvgC3wCfgY/Bf8P0QHrImahmQB1VWLfwGvAieqy+/LxJIR+Dv4QPwf75WWb4CGQavg9fo70mqFd4F79DfCSRCA+HN8Hp4cMppdcBfwB/Bt9mo99Sr8Cl4SwYwnKYhaf2jaXMconoE/hL+CR6TQ/pPato7NS+FbtSfgH+Gp8eMfwv+HT6qpakZvqzVT/d//ePw0/BEeI72ygbFvP/f8MvwpSK2IfLSGuGxFeJ1aby98CG4s5fpDNAqaTlcL89cIf45jddcpDZknI4PKsFo0NKzQLusnX1Iq1P/doHe60CF+GM1b+OK0obIYO5XeGREnLPwfHghfDzBtOVeb+q9z0bEG6njltHVDqQ2RuP9HTwDbkoxH02axv4YjX1tNQP5LKIBl7ZiK/yWToGkLUljsaZpNaTTNc9VCeR1eHUEjHfgD3OoQiXNVRFQVmveqwrIEHh3xPXNOp2Rl77WPFiSvA+tJiCb4FHGNanHP/FggCp52Gdck7y/Wy0Dw2Hatx9s9KZmZNRmxC3JMjh8qsy1Du0St4Y+DomaKFzlEQxRu+apnOQZ1oVeZfWPeMCGlLu2/6dL3BDRwPcPGYiMjocbvaoPnL963+h1DddnChbIMiP8cMIj8KQln34be/lM3gOREW69cW2v81/fGOH1aY7e0wTyrNGYyxT6wQCAHNS8lmvcZ4UIZL4RLt8z7gQA5I7mtZyeCxHIS0b4UReOrLw+EyIQqxScDAiIldcJIQLZYTTmvwUEpMUIHxMikB/gta40PXIF/lwHVrcCAnLVCH8srQR9X7mYt2RUbq1yrOFia390N9SReugaYoR3EEg+GmGEtxNIPhpvhJ8nkHw02Qj/l0Dy0Rwj/DSBZC9ZeD3buPYHgWSv11z5RdrSw/qTQLLX20Z4o0toSxyBxJdsKrVmq79NM2ECKa/3XPltC9fgXwgkW81zpVX35fSVS3HahEB6SqZK9hjXujeJOgLJTrLG19qos1OrLALJSLL+eLFx7SL8cRaZIJCSVrrSfnVL8qHtJoFkoy3ablibQeWz849ZZaZfgUHIfg/Z97EkIs5xLR2OQNLv2u5x0Ttt5UShV1wfj91glRVP01xp8UVTBRiyuOFFheJYQpKVzNrKwQErXPyDA2SF+5k8MhsykCnwPdfzaA3ZYy6nREyCX4Cfd/EPs+nV0RoEUlqWsx1eCie9Bkc2nW5wOa87Dg3Ipy75bWXntSd1yIcHDK1RT3KzTIcOBif6AqOo3d42HX/I0tZW3zIXWgnp68chmfaQjZxyoKac0bXNRxghlpCN2m1dpj/btXEfpD0uqYaua89Luq3dx8TKN3AeE1vt4mLrAohACIQiEAKhCIRAKAIhEIpACq7IqROKJYRA+AoIhCIQAqEIhEAoAiEQikCKrQcCDABHPgH2w7NQdAAAAABJRU5ErkJggg==);
+			background-size: cover;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			animation: preloader_spin 1s infinite linear;
+			-webkit-animation: preloader_spin 1s infinite linear;
+		}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		@keyframes preloader_spin { 0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);} }
+		@-webkit-keyframes preloader_spin { 0% {-webkit-transform: rotate(0deg);} 100% {-webkit-transform: rotate(360deg);}}
+    </style>
+</head>
+<body>
+	<div id="preloader"></div>
+	<script src="data/browsersupport.js?5B1A715C"></script>
+	<script src="data/player.js?5B1A715C"></script>
+    <div id="content"></div>
+    <div id="spr0_435619"></div>
+    <script>
+		(function(startup){
+			function start(savedPresentationState)
+			{
+				var presInfo = "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";
+				PresentationPlayer.start(presInfo, "content", "playerView", onPlayerInit, savedPresentationState);
+				function onPlayerInit(player)
+				{
+					(player);
 
-### Markdown
+					var preloader = document.getElementById("preloader");
+					preloader.parentNode.removeChild(preloader);
+				}
+			}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jasperwood/stuff/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+			if (startup)
+				startup(start);
+			else
+				start();
+		})();
+    </script>
+</body>
+</html>
